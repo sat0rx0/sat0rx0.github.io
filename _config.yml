@@ -30,6 +30,6 @@ twitter_username: ""
 github_username:  sat0rx0
 
 # Build settings
-theme: sat0rx0/jackyll-whitelist
+remote_theme: sat0rx0/jackyll-whitelist
 plugins:
   - jekyll-feed
