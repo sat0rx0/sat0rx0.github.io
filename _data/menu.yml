@@ -1,6 +1,12 @@
 entries:
-  - title: info
+  - title: Кратко о авторе.
     entries:
       - title: Денис Бедин, г. Москва
       - title: Сервисный инженер, администратор ЦОД.
-      - title: Энтузиаст GNU/Linux, BSD, Hardware hacker, 
+      - title: Энтузиаст GNU/Linux, BSD, Hardware hacker.
+  - title: Блогозаписи.
+    post_list:
+      limit: 13
+      show_more: true
+      show_more_test: показать остальные ->
+      show_more_url: archive.html
