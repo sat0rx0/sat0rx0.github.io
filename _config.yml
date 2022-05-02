@@ -28,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sat0rx0
 
+yandex_code: 'd4f3108b69130345'
+
 # Build settings
 remote_theme: sat0rx0/jackyll-whitelist
 plugins:
