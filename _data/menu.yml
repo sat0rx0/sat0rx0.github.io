@@ -5,7 +5,7 @@ entries:
       - title: Сервисный инженер, администратор ЦОД.
       - title: Энтузиаст GNU/Linux, BSD, Hardware hacker.
       - title: 'Для связи: [<a href="mailto:lr-works@yandex.com">Электропочта</a>] [<a href="http://t.me/sat0rx0">Телеграм</a>]'
-  - title: Блогозаписи.
+  - title: 'Блогозаписи:'
     post_list:
       limit: 13
       show_more: true
