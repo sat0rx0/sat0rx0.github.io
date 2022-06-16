@@ -84,4 +84,15 @@ categories: asic whatsminer firmware
     diag.sh   fstab              hotplug-preinit.json  luci-uploads     preinit    rc.d       shadow.default  sysupgrade.conf
     dropbear  group              init.d                microbt_release  profile    rc.local   shells          TZ
 
-Ура! Это каталок /etc нашей системы OpenWrt. Можно отредактировать необходимое, а затем собрать навый образ, "отрезав" заголовок от официального и подклеив наш, отредактированный.
+Ура! Это каталог /etc нашей системы OpenWrt. Можно отредактировать необходимое, а затем собрать навый образ, "отрезав" заголовок от официального и подклеив к нему наш, отредактированный раздел.
+
+    [sat0r@sat0r-book WM]$ dd if=WhatsMiner-SDCard-Burn-Image-h6os-20220422.18.img of=new.img count=84278272 bs=1
+    84278272+0 записей получено
+    84278272+0 записей отправлено
+    84278272 байт (84 MB, 80 MiB) скопирован, 144,395 s, 584 kB/s
+    [sat0r@sat0r-book WM]$ dd if=fs1.ext4 of=new.img seek=84278272 bs=1
+    8389632+0 записей получено
+    8389632+0 записей отправлено
+    8389632 байт (8,4 MB, 8,0 MiB) скопирован, 13,9657 s, 601 kB/s
+
+Файл new.img можно заливать на машинку стандартным способом и наслаждаться доступом root или иными плюшками.
