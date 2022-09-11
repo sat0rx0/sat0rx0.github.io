@@ -1,9 +1,10 @@
 entries:
   - title: "Кратко:"
-    -  p: Денис Бедин, г. Москва.
-    -  p: Сервисный инженер, администратор ЦОД.
-    -  p: Энтузиаст GNU/Linux, BSD, Hardware hacker.
-    -  p: 'Для связи: [<a href="mailto:lr-works@yandex.com">Электропочта</a>] [<a href="http://t.me/sat0rx0">Телеграм</a>]'
+    entries:
+      - title: Денис Бедин, г. Москва.
+      - title: Сервисный инженер, администратор ЦОД.
+      - title: Энтузиаст GNU/Linux, BSD, Hardware hacker.
+      - title: 'Для связи: [<a href="mailto:lr-works@yandex.com">Электропочта</a>] [<a href="http://t.me/sat0rx0">Телеграм</a>]'
   - title: 'Блогозаписи:'
     post_list:
       limit: 13
