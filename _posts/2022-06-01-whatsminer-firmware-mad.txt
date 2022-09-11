@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title:  "Модификация прошивки WhatsMiner M3x"
 date:   2022-06-03 11:56:28
 categories: asic whatsminer firmware
