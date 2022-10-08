@@ -20,9 +20,9 @@
 
 title: Den Bedin
 email: lr-works@yandex.com
-description: Личный сайт-визитка и блог технической направленности.
+description: Личный сайт-визитка.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sat0rx0.github.io/"
 github_username:  sat0rx0
 
 yandex_code: 'd4f3108b69130345'
