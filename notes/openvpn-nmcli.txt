@@ -1,0 +1,29 @@
+Как подключится к openvpn с помощью командного интерфейса
+NetworkManager - nmcli:
+
+У нас есть файл с данными о подключении openvpn - назовем его
+work.ovpn
+
+Импортируем его в систему:
+
+nmcli connection import type openvpn file work.ovpn
+
+создалось подключение по имени work - можно увидеть его в списке
+
+nmcli cinnection list
+
+Для авторизации в нашем случае используется пара пароль-логин,
+поэтому сменим тип подключения
+
+nmcli connection modify work +vpn.data connection-type=password-tls
+
+Можно сразу задать имя пользователя и пароль, тогда их не придется вводить
+при каждом подключении        
+
+nmcli connection modify work +vpn.data username="USERNAME"
+nmcli connection modify work +vpn.secrets password="PASSWD"
+
+
+Подключаемся к vpn коммандой
+
+nmcli connection up work
